@@ -1,0 +1,77 @@
+/*
+
+	Theme Name: Sample Theme;
+	Author: Shaikat Chandra Paul;
+	Description: Very Simple Wordpress Theme;
+
+*/
+
+body {
+	font-family: Arial;
+	font-size: 15px;
+	color: #333;
+	background: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	line-height: 1.7em;
+}
+
+header {
+	background-color: #393939;
+	color: #fff;
+	padding: 20px 10px;
+}
+
+header h1 {
+	color: #fff;
+	margin: 0;
+	position-bottom: 10px; 
+}
+
+.container{
+	width: 900px;
+	margin: 0 auto;
+	overflow: auto;
+	/*background-color: red;*/
+}
+
+footer {
+	background-color: #393939;
+	color: #fff;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+.main {
+	margin: 15px 0;
+}
+
+a {
+	color: #333;
+}
+
+article.post {
+	border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+article.post a.button {
+	direction: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 5px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.meta {
+	background-color: #333;
+	color: #fff;
+	padding: 5px;
+}
+
+.post-thumbnail {
+	width: 100%
+	height: auto;
+}
