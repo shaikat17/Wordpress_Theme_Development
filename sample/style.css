@@ -71,7 +71,28 @@ article.post a.button {
 	padding: 5px;
 }
 
-.post-thumbnail {
-	width: 100%
+.post-thumbnail img {
+	width: 100%;
 	height: auto;
+}
+
+.main-nav {
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+}
+
+.main-nav ul {
+	margin: 0;
+	padding: 0;
+}
+.main-nav li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 15px;
+}
+
+.main-nav a {
+	color: #fff;
+	text-decoration: none;
 }
